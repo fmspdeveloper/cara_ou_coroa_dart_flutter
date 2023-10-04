@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-import 'home.dart';
-
 class paginaJogo extends StatelessWidget {
   const paginaJogo({super.key});
 
@@ -17,8 +15,8 @@ class paginaJogo extends StatelessWidget {
       imagem = AssetImage("images/moeda_coroa.png");
     }
 
-    void _navegarInicio(){
-      Navigator.push(context, MaterialPageRoute(builder: (builder) => TelaInicio()));
+    void _navegarInicio() {
+      Navigator.pushNamed(context, "/home");
     }
 
     return Scaffold(

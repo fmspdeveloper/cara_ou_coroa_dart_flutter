@@ -1,4 +1,3 @@
-import 'package:cara_ou_coroa/paginaJogo.dart';
 import 'package:flutter/material.dart';
 
 class TelaInicio extends StatefulWidget {
@@ -10,8 +9,7 @@ class TelaInicio extends StatefulWidget {
 
 class _TelaInicioState extends State<TelaInicio> {
   void _navegarJogo() {
-    Navigator.push(
-        context, MaterialPageRoute(builder: (context) => paginaJogo()));
+    Navigator.pushNamed(context, "/jogo");
   }
 
   @override
