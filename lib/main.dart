@@ -1,7 +1,6 @@
+import 'home.dart';
 import 'package:cara_ou_coroa/paginaJogo.dart';
 import 'package:flutter/material.dart';
-
-import 'home.dart';
 
 void main() {
   runApp(MaterialApp(
