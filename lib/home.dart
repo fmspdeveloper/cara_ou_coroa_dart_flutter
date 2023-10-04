@@ -18,7 +18,7 @@ class _TelaInicioState extends State<TelaInicio> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      alignment: Alignment.center,
+      //alignment: Alignment.center,
       color: Color(0xFF61bd8c),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
